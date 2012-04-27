@@ -1,5 +1,4 @@
 #-*- coding: utf-8 -*-
-
 """
 This file was generated with the custommenu management command, it contains
 the classes for the admin menu, you can customize this class as you want.
@@ -7,7 +6,6 @@ the classes for the admin menu, you can customize this class as you want.
 To activate your custom menu add the following to your settings.py:
     ADMIN_TOOLS_MENU = '{{project_name}}.menu.CustomMenu'
 """
-
 from django.core.urlresolvers import reverse
 from django.utils.translation import ugettext_lazy as _
 from admin_tools.menu import items, Menu
@@ -39,8 +37,8 @@ class CustomMenu(Menu):
                     'chunks.*',
                 ),
                 children=[
-                    items.MenuItem(u'users', reverse('admin:auth_user_changelist')),
-                    items.MenuItem(u'groups', reverse('admin:auth_group_changelist')),
+                    items.MenuItem(_(u'Users'), reverse('admin:auth_user_changelist')),
+                    items.MenuItem(_(u'Groups'), reverse('admin:auth_group_changelist')),
                 ]
             ),
         ]

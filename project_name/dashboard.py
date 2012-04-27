@@ -31,7 +31,7 @@ class CustomIndexDashboard(Dashboard):
         # append an app list module for "Applications"
         self.children.append(
             modules.Group(
-                title=u"users",
+                title=_(u"Users"),
                 display="tabs",
                 children=[
 #                    modules.AppList(
@@ -44,11 +44,11 @@ class CustomIndexDashboard(Dashboard):
 
         # append an app list module for "Administration"
         self.children.append(modules.Group(
-            title=u"adminstvo",
+            title=_(u"Admins"),
             display="tabs",
             children=[
                 modules.AppList(
-                    title=u'users',
+                    title=_(u'Users'),
                     models=('django.contrib.auth.*',)
                 ),
             ]
