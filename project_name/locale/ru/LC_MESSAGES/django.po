@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-27 16:01+0600\n"
+"POT-Creation-Date: 2012-04-28 10:56+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,91 +19,94 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
-#: project_name/__init__.py:12
+#: tmp2/__init__.py:12
 msgid "Standard template"
 msgstr ""
 
-#: project_name/__init__.py:15
+#: tmp2/__init__.py:15
 msgid "Main content area"
 msgstr ""
 
-#: project_name/__init__.py:21
+#: tmp2/__init__.py:21
 msgid "default"
 msgstr ""
 
-#: project_name/__init__.py:22
+#: tmp2/__init__.py:22
 msgid "lightbox"
 msgstr ""
 
-#: project_name/config_example.py:7
+#: tmp2/__init__.py:25
+msgid "Auth"
+msgstr "Пользователи"
+
+#: tmp2/config_example.py:7
 msgid "My App Settings"
 msgstr ""
 
-#: project_name/config_example.py:16
+#: tmp2/config_example.py:16
 msgid "Number of images to display"
 msgstr ""
 
-#: project_name/config_example.py:17
+#: tmp2/config_example.py:17
 msgid "How many images to display on front page."
 msgstr ""
 
-#: project_name/config_example.py:25
+#: tmp2/config_example.py:25
 msgid "Measurement System"
 msgstr ""
 
-#: project_name/config_example.py:26
+#: tmp2/config_example.py:26
 msgid "Default measurement system to use."
 msgstr ""
 
-#: project_name/config_example.py:27
+#: tmp2/config_example.py:27
 msgid "Metric"
 msgstr ""
 
-#: project_name/config_example.py:28
+#: tmp2/config_example.py:28
 msgid "Imperial"
 msgstr ""
 
-#: project_name/dashboard.py:18
+#: tmp2/dashboard.py:18
 msgid "Quick links"
 msgstr "Быстрые ссылки"
 
-#: project_name/dashboard.py:24
+#: tmp2/dashboard.py:24
 msgid "Return to site"
 msgstr "Вернуться на сайт"
 
-#: project_name/dashboard.py:25
+#: tmp2/dashboard.py:25
 msgid "Change password"
 msgstr "Сменить пароль"
 
-#: project_name/dashboard.py:27
+#: tmp2/dashboard.py:27
 msgid "Log out"
 msgstr "Выход"
 
-#: project_name/dashboard.py:34 project_name/dashboard.py:51
-#: project_name/menu.py:40
+#: tmp2/dashboard.py:34 tmp2/dashboard.py:51 tmp2/menu.py:40
 msgid "Users"
 msgstr "Пользователи"
 
-#: project_name/dashboard.py:47
+#: tmp2/dashboard.py:47
 msgid "Admins"
 msgstr "Администрирование"
 
-#: project_name/dashboard.py:76
+#: tmp2/dashboard.py:76
 msgid "Recent Actions"
 msgstr "Последние действия"
 
-#: project_name/menu.py:20
+#: tmp2/menu.py:20
 msgid "Dashboard"
 msgstr "Панель управления"
 
-#: project_name/menu.py:22
+#: tmp2/menu.py:22
 msgid "Applications"
 msgstr "Приложения"
 
-#: project_name/menu.py:33
+#: tmp2/menu.py:33
 msgid "Administration"
 msgstr "Администрирование"
 
-#: project_name/menu.py:41
+#: tmp2/menu.py:41
 msgid "Groups"
 msgstr "Группы"
