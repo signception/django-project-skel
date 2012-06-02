@@ -1,7 +1,7 @@
 *.pyc
 *.pyo
 .DS_Store
-local_settings.py
+settings_local.py
 public/static
 public/media
 
